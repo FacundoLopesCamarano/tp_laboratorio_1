@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1599077715 source:c:\users\facu\desktop\trabajopractico1\lopes.c
+	"lopes.h"
+
+1599077214 c:\users\facu\desktop\trabajopractico1\lopes.h
+
+1599079762 source:c:\users\facu\desktop\trabajopractico1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"lopes.h"
+
