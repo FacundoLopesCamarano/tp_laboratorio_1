@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1599077715 source:c:\users\facu\desktop\trabajopractico1\lopes.c
+1599493337 source:c:\users\facu\desktop\trabajopractico1\lopes.c
 	"lopes.h"
+	<stdio.h>
 
-1599077214 c:\users\facu\desktop\trabajopractico1\lopes.h
+1599494800 c:\users\facu\desktop\trabajopractico1\lopes.h
 
-1599079762 source:c:\users\facu\desktop\trabajopractico1\main.c
+1599503862 source:c:\users\facu\desktop\trabajopractico1\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>

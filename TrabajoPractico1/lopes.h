@@ -63,4 +63,26 @@ int restarNumeros(int primerNumero, int segundoNumero);
     *
     */
 
-    float dividirNumeros(int primerNumero, int segundoNumero);
+    int dividirNumeros(int primerNumero, int segundoNumero);
+
+    /** \brief calcula el factorial de un numero
+     *
+     * \param numero a factorizar
+     * \param
+     * \return el factorial de los numeros
+     *
+     */
+
+     int factorial(int numero);
+
+
+    /** \brief Menu de Opciones
+     *
+     * \param muestra menu de opciones
+     * \param
+     * \return opcion elegida
+     *
+     */
+
+
+

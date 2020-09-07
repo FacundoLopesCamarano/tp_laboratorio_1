@@ -1,4 +1,5 @@
 #include "lopes.h"
+#include <stdio.h>
 
 
 
@@ -38,9 +39,30 @@ int multiplicarNumeros(int primerNumero, int segundoNumero)
 
 
 
-float dividirNumeros(int primerNumero, int segundoNumero)
+int dividirNumeros(int primerNumero, int segundoNumero)
 {
-    float dividir;
-    dividir =(float)primerNumero/segundoNumero;
+    int dividir;
+    dividir = (float)primerNumero/segundoNumero;
     return dividir;
+
 }
+
+
+
+
+int factorialFunc(int num)
+{
+    int fact = 1;
+
+    for( int i = 1; i <= num; i++)
+   {
+       fact = fact * i;
+   }
+
+   return fact;
+
+}
+
+
+
+

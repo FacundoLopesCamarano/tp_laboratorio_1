@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="lopes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lopes.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
