@@ -73,7 +73,7 @@ int restarNumeros(int primerNumero, int segundoNumero);
      *
      */
 
-     int factorial(int numero);
+     int factorialFunc(int numero);
 
 
     /** \brief Menu de Opciones
@@ -83,6 +83,8 @@ int restarNumeros(int primerNumero, int segundoNumero);
      * \return opcion elegida
      *
      */
+
+     int menu();
 
 
 

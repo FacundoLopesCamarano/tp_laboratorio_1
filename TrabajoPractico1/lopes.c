@@ -1,5 +1,6 @@
-#include "lopes.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
 
 
 
@@ -60,6 +61,37 @@ int factorialFunc(int num)
    }
 
    return fact;
+
+}
+
+
+menu(){
+
+    char opcion;
+     system("cls");
+
+        printf("***Menu de operaciones***\n\n\n");
+        printf("1. Ingresar 1er operando (A=x) \n");
+        printf("2. Ingresar 2do operando (B=y) \n");
+        printf("3. Calcular todas las operaciones \n\n");
+                printf( "a) Calcular la suma (A+B) \n ");
+                printf( "b) Calcular la resta (A-B) \n ");
+                printf( "c) Calcular la division (A/B) \n ");
+                printf( "d) Calcular la multiplicacion (A*B)\n ");
+                printf( "e) Calcular el factorial (A!) \n ");
+        printf("4. Informar resultados \n\n");
+                printf( "a) El resultado de A+B es: r \n ");
+                printf( "b) El resultado de A-B es: r \n ");
+                printf( "c) El resultado de A/B es: r \n ");
+                printf( "d) El resultado de A*B es: r \n ");
+                printf( "e) El factorial de A es: r1 y El factorial de B es: r2 \n ");
+        printf("5. Salir \n ");
+        printf("Seleccione opcion:");
+        fflush(stdin);
+        scanf("%c", &opcion);
+
+        return opcion;
+
 
 }
 
