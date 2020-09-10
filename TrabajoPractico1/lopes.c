@@ -51,7 +51,7 @@ int dividirNumeros(int primerNumero, int segundoNumero)
 
 
 
-int factorialFunc(int num)
+long long int factorialFunc(int num)
 {
     int fact = 1;
 
@@ -65,14 +65,14 @@ int factorialFunc(int num)
 }
 
 
-menu(){
+int menu(int numb1,int numb2){
 
     char opcion;
      system("cls");
 
         printf("***Menu de operaciones***\n\n\n");
-        printf("1. Ingresar 1er operando (A=x) \n");
-        printf("2. Ingresar 2do operando (B=y) \n");
+        printf("1. Ingresar 1er operando (A=%d) \n", numb1);
+        printf("2. Ingresar 2do operando (B=%d) \n",numb2);
         printf("3. Calcular todas las operaciones \n\n");
                 printf( "a) Calcular la suma (A+B) \n ");
                 printf( "b) Calcular la resta (A-B) \n ");
@@ -94,7 +94,6 @@ menu(){
 
 
 }
-
 
 
 
